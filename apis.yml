@@ -1,7 +1,11 @@
 aid: tops-holding
-url: https://raw.githubusercontent.com/api-evangelist/tops-holding/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/tops-holding/refs/heads/main/apis.yml
 modified: '2026-03-24'
 apis: []
 common:
   - type: Website
     url: https://www.tops-holding.com
+description: >-
+  Tops Friendly Markets is a supermarket chain operating stores in upstate New York,
+  northern Pennsylvania, and Vermont.
