@@ -1,11 +1,84 @@
 aid: tops-holding
-url: 
+url: >-
   https://raw.githubusercontent.com/api-evangelist/tops-holding/refs/heads/main/apis.yml
-modified: '2026-03-24'
+name: Tops Friendly Markets
+description: >-
+  Tops Friendly Markets is a regional supermarket chain operating 147 stores
+  across upstate New York, northern Pennsylvania, and Vermont. The company
+  provides an e-commerce platform with online grocery ordering, pickup and
+  delivery services via DoorDash, the BonusPlus loyalty card program with
+  digital coupons, gas rewards, and the MoolahVille cash back rewards program.
+  Tops offers mobile apps for iOS and Android supporting contactless shopping,
+  weekly ad browsing, digital coupon clipping, and order management.
+  No public developer API is available.
+type: Index
+position: Consumer
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Grocery
+  - Loyalty Programs
+  - Retail
+  - Supermarkets
+created: '2026-03-24'
+modified: '2026-05-03'
 apis: []
 common:
   - type: Website
-    url: https://www.tops-holding.com
-description: >-
-  Tops Friendly Markets is a supermarket chain operating stores in upstate New York,
-  northern Pennsylvania, and Vermont.
+    url: https://www.topsmarkets.com
+    name: Tops Friendly Markets Website
+    description: 'null'
+  - type: MobileApp
+    url: https://www.topsmarkets.com/MobileApp
+    name: Tops Mobile App
+    description: 'iOS and Android app for shopping, coupons, and loyalty management.'
+  - type: LoyaltyProgram
+    url: https://www.topsmarkets.com/BonusPlus
+    name: BonusPlus Loyalty Program
+    description: 'Loyalty card program offering digital coupons, gas rewards, and member savings.'
+  - type: ECommerce
+    url: https://www.topsmarkets.com/ShopOnline
+    name: Online Grocery Shopping
+    description: 'Grocery pickup (min $35) and DoorDash delivery service.'
+  - type: WeeklyAd
+    url: https://www.topsmarkets.com/WeeklyAd
+    name: Weekly Ad
+    description: 'Digital weekly circular with sales and promotions.'
+  - type: Pharmacy
+    url: https://www.topsmarkets.com/Pharmacy
+    name: Tops Pharmacy
+    description: 'In-store pharmacy services.'
+  - type: GiftCards
+    url: https://www.topsmarkets.com/GiftCards
+    name: Gift Cards
+    description: 'Physical and digital gift cards available online.'
+  - type: Wikipedia
+    url: https://en.wikipedia.org/wiki/Tops_Friendly_Markets
+    name: Tops Friendly Markets Wikipedia
+    description: 'null'
+  - name: Features
+    type: Features
+    data:
+      - name: Online Grocery Ordering
+      - name: Grocery Pickup Service
+      - name: DoorDash Delivery Partnership
+      - name: BonusPlus Loyalty Card
+      - name: Digital Coupons
+      - name: Gas Rewards Points
+      - name: MoolahVille Cash Back Rewards
+      - name: Mobile App (iOS and Android)
+      - name: Gift Card E-Commerce
+      - name: In-Store Pharmacy
+      - name: Weekly Digital Ad
+  - name: Use Cases
+    type: UseCases
+    data:
+      - name: Online Grocery Shopping
+      - name: Digital Coupon Clipping
+      - name: Loyalty Rewards Accumulation
+      - name: Grocery Pickup and Delivery
+      - name: Weekly Deals Discovery
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+specificationVersion: '0.19'
