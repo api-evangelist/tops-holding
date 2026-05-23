@@ -3,14 +3,19 @@ url: >-
   https://raw.githubusercontent.com/api-evangelist/tops-holding/refs/heads/main/apis.yml
 name: Tops Friendly Markets
 description: >-
-  Tops Friendly Markets is a regional supermarket chain operating 147 stores
-  across upstate New York, northern Pennsylvania, and Vermont. The company
-  provides an e-commerce platform with online grocery ordering, pickup and
-  delivery services via DoorDash, the BonusPlus loyalty card program with
-  digital coupons, gas rewards, and the MoolahVille cash back rewards program.
-  Tops offers mobile apps for iOS and Android supporting contactless shopping,
-  weekly ad browsing, digital coupon clipping, and order management.
-  No public developer API is available.
+  Tops Friendly Markets is a regional supermarket chain headquartered in
+  Amherst, New York operating 152 grocery stores and 58 gas station and
+  convenience stores across upstate New York, northern Pennsylvania, and
+  Vermont. In November 2021 Tops Holding II merged with Price Chopper /
+  Market 32 to form Northeast Grocery Inc, a roughly 300-store regional
+  alliance under common ownership. The Tops consumer brand continues to
+  operate an e-commerce platform with online grocery pickup and DoorDash
+  delivery, the BonusPlus loyalty card program with digital coupons and
+  gas rewards, the MoolahVille cash back rewards program, in-store
+  pharmacies, gift cards, and iOS and Android mobile apps. Vendor and
+  supplier engagement is handled through Northeast Shared Services. No
+  public developer API, OpenAPI specification, SDK, webhook, EDI portal,
+  status page, RSS feed, or changelog is published for the Tops brand.
 type: Index
 position: Consumer
 access: 3rd-Party
@@ -20,8 +25,10 @@ tags:
   - Loyalty Programs
   - Retail
   - Supermarkets
+  - Northeast Grocery
+  - Post-Merger
 created: '2026-03-24'
-modified: '2026-05-03'
+modified: '2026-05-23'
 apis: []
 common:
   - type: Website
@@ -52,10 +59,18 @@ common:
     url: https://www.topsmarkets.com/GiftCards
     name: Gift Cards
     description: 'Physical and digital gift cards available online.'
+  - type: ParentCompany
+    url: https://www.northeastgrocery.com
+    name: Northeast Grocery Inc
+    description: 'Parent holding company formed November 2021 from the merger of Tops Holding II and Price Chopper / Market 32, operating nearly 300 stores across the Northeast.'
+  - type: VendorPortal
+    url: https://www.northeastsharedservices.com
+    name: Northeast Shared Services
+    description: 'Shared services vendor relations site providing downloadable vendor forms and compliance resources. No API, EDI portal, or developer documentation.'
   - type: Wikipedia
     url: https://en.wikipedia.org/wiki/Tops_Friendly_Markets
     name: Tops Friendly Markets Wikipedia
-    description: 'null'
+    description: 'Reference article documenting Tops history, the 2021 Northeast Grocery merger, and current store footprint.'
   - name: Features
     type: Features
     data:
