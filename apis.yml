@@ -31,6 +31,8 @@ created: '2026-03-24'
 modified: '2026-05-23'
 apis: []
 common:
+  - type: DomainSecurity
+    url: security/tops-holding-domain-security.yml
   - type: Website
     url: https://www.topsmarkets.com
     name: Tops Friendly Markets Website
