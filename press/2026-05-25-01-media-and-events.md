@@ -1,7 +1,9 @@
 ---
 title: Media & Events
 url: https://www.mckoolsmith.com/newsroom
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Tops Holding" press release artificial intelligence'
 position: 1
 source: serpapi-google
