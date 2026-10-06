@@ -50,9 +50,11 @@ tags:
   - Northeast Grocery
   - Post-Merger
 created: '2026-03-24'
-modified: '2026-05-23'
+modified: '2026-10-06'
 apis: []
 common:
+  - url: https://www.topsmarkets.com/Newsroom
+    type: Blog
   - type: DomainSecurity
     url: security/tops-holding-domain-security.yml
   - type: Website
