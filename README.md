@@ -64,74 +64,80 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Tops Friendly Markets is a regional supermarket chain headquartered in Amherst, New York operating 152 grocery stores and 58 gas station and convenience stores across upstate New York, northern Pennsylvania, and Vermont. In November 2021, Tops Holding II merged with Price Chopper / Market 32 to form **Northeast Grocery Inc**, a roughly 300-store regional alliance under common ownership. The Tops consumer brand continues to operate independently with its own e-commerce, loyalty, and mobile properties.
+Tops Friendly Markets is a regional supermarket chain headquartered in Amherst, New York operating 152 grocery stores and 58 gas station and convenience stores across upstate New York, northern Pennsylvania, and Vermont. In November 2021 Tops Holding II merged with Price Chopper / Market 32 to form Northeast Grocery Inc, a roughly 300-store regional alliance under common ownership. The Tops consumer brand continues to operate an e-commerce platform with online grocery pickup and DoorDash delivery, the BonusPlus loyalty card program with digital coupons and gas rewards, the MoolahVille cash back rewards program, in-store pharmacies, gift cards, and iOS and Android mobile apps. Vendor and supplier engagement is handled through Northeast Shared Services. No public developer API, OpenAPI specification, SDK, webhook, EDI portal, status page, RSS feed, or changelog is published for the Tops brand.
 
-**Website:** [https://www.topsmarkets.com](https://www.topsmarkets.com)
-**Parent Company:** [Northeast Grocery Inc](https://www.northeastgrocery.com)
+**Areas:** Grocery · Loyalty Programs · Retail · Supermarkets · Northeast Grocery · Post-Merger
 
-## Scope
+## Tops Friendly Markets on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for Tops Friendly Markets is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tops-holding/](https://apis.io/providers/tops-holding/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### Published properties
 
-Grocery, Loyalty Programs, Retail, Supermarkets, Northeast Grocery, Post-Merger
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-**No public developer API is available** for Tops Friendly Markets. There is no developer portal, OpenAPI specification, SDK, CLI, webhook delivery service, EDI partner portal, public status page, RSS feed, or changelog published under the Tops brand or its Northeast Grocery parent. Vendor engagement is handled offline through downloadable forms at Northeast Shared Services; supplier onboarding occurs by phone (800-666-7667), not via API.
+Authentication, trust centre, and vulnerability disclosure.
 
-## Corporate Structure
+- [Tops Holding Domain Security](https://apis.io/security/tops-holding/tops-holding-domain-security/)
 
-| Entity | Role | URL |
-|---|---|---|
-| Tops Holding II | Operating entity for the Tops brand | n/a |
-| Northeast Grocery Inc | Parent holding company (formed Nov 2021) | [northeastgrocery.com](https://www.northeastgrocery.com) |
-| Price Chopper / Market 32 | Sister brand under Northeast Grocery | n/a |
-| Northeast Shared Services | Vendor relations / supplier compliance | [northeastsharedservices.com](https://www.northeastsharedservices.com) |
+## Where to find this API
 
-## Consumer Digital Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-| Resource | URL |
+- [Website](https://www.topsmarkets.com)
+- [Blog](https://www.topsmarkets.com/Newsroom)
+
+## API Evangelist rating
+
+**Kin Score 3.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
 |---|---|
-| Website | [topsmarkets.com](https://www.topsmarkets.com) |
-| Mobile App | [iOS & Android App](https://www.topsmarkets.com/MobileApp) |
-| Online Shopping | [Shop Online](https://www.topsmarkets.com/ShopOnline) |
-| BonusPlus Loyalty | [BonusPlus Program](https://www.topsmarkets.com/BonusPlus) |
-| Weekly Ad | [Weekly Circular](https://www.topsmarkets.com/WeeklyAd) |
-| Gift Cards | [Gift Cards](https://www.topsmarkets.com/GiftCards) |
-| Pharmacy | [Pharmacy Services](https://www.topsmarkets.com/Pharmacy) |
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 0.0 |
 
-## Features
+**Agent readiness 0.0** — human-only
 
-- Online Grocery Ordering with Pickup (minimum $35) and DoorDash Delivery
-- BonusPlus Loyalty Card with Digital Coupons
-- Gas Rewards Points
-- MoolahVille Cash Back Rewards Program
-- Mobile App for iOS and Android
-- Weekly Digital Ad and Promotions
-- In-Store Pharmacy
-- Gift Card E-Commerce
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-## Notable Absences
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-- No developer portal or API documentation
-- No OpenAPI / AsyncAPI / GraphQL specification
-- No SDKs, CLIs, or GitHub organization
-- No webhook service or public event stream
-- No public status page or incident history
-- No RSS feed or changelog
-- No B2B / EDI integration portal (vendor compliance is form-based via Northeast Shared Services)
-- No public pricing surface or rate limits (no API to price)
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tops-holding/](https://apis.io/providers/tops-holding/).
 
-## Timestamps
+## How this profile is made
 
-- **Created:** 2026-03-24
-- **Modified:** 2026-05-23
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Maintainers
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Tops Friendly Markets: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tops-holding/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
